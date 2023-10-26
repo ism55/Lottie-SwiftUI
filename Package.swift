@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(name: "Lottie", url: "https://github.com/airbnb/lottie-spm.git", .upToNextMajor(from: Version(4, 0, 0)))
+        .package(name: "Lottie", url: "https://github.com/airbnb/lottie-spm.git", .exact(Version(4, 0, 1)))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
